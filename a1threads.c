@@ -28,6 +28,7 @@ static volatile sig_atomic_t flag_quit = 0;
 static int read_config(void)
 {
     FILE *fp;
+    int xyz;
     int count;
 
     fp = fopen(CONFIG_FILE, "r");
